@@ -1,0 +1,17 @@
+.inputs {
+	width: 250px;
+	height: 45px;
+	padding-left: 12px;
+	border-radius: 7px;
+	background-color: #fff;
+	border: none;
+	&:hover {
+		transition: all 0.2s ease;
+		background-color: rgba(215, 215, 245, 0.597);
+		color: black;
+		border: 1px solid rgb(139, 139, 224);
+	}
+	&:active {
+		border: 2px solid rgb(65, 65, 233);
+	}
+}
